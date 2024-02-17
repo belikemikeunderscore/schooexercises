@@ -22,7 +22,7 @@ int main(){
 
     for(int x = 0; x < 4; x++){
         if(grades[x] < lowest){
-            lowest = grades[x]; //this exercise doesn't work and i don't know why so i'm just gonna leave it here till i know what's happenning
+            lowest = grades[x];
         };
     for(int y = 0; y < 4; y++){
         if(grades[y] > highest){
