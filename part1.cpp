@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-const int pi = 3.1415;
+const int pi = 3.14159;
 int radius; 
 
 int main(){
