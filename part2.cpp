@@ -5,7 +5,8 @@ using namespace std;
 float grades[5];
 float lowest = 0;
 float highest = 0;
-
+    //float sum;
+    //float average;
 
 
 int coolarray[10] = {1,2,3,4,5,6,7,8,9,10};
@@ -15,6 +16,13 @@ float coolesthigher = 0;
 int main(){
     cout << "Input the grades of the 5 students\n";
     cin >> grades[0] >> grades[1] >> grades[2] >> grades[3] >> grades[4];
+    
+
+    //for(int u = 0; u > 5; u++){
+    //    sum += grades[u];
+    //    average = sum / 5;
+    //}
+    
     cout << "The average of the students grades are " << (grades[0] + grades[1] + grades[2] + grades[3] + grades[4]) / 5 << endl;
     
     lowest = grades[0];
@@ -40,17 +48,17 @@ int main(){
 
     for(int i = 0; i < 10; i++){
         if(coolarray[i] < coolestlower){
-            coolestlower = coolarray[i]
-        };
+            coolestlower = coolarray[i];
+        }
     };
 
 
 
     for(int e = 0; e < 10; e++){
         if(coolarray[e] > coolesthigher){
-            coolesthigher = coolarray[e]
+            coolesthigher = coolarray[e];
             
-        };
+        }
     };
  cout << "The highest value is " << coolesthigher << "\n";
  cout << "The lowest value is " << coolestlower << "\n";
